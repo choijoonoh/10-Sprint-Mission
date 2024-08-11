@@ -17,7 +17,7 @@ body {
 }
 
 .btn.top {
-  position: relative; /* 상대적인 위치 설정 */
+  position: relative; 
   top: -70px;
   display: inline-block;
   background-color: transparent;
@@ -62,19 +62,18 @@ h5 {
 .main-item {
   display: flex;
   align-items: center;
-  justify-content: space-around; /* 이미지와 텍스트 같이 */
-  background-color: #f8f8f8; /* 각 섹션의 배경색 */
+  justify-content: space-around; 
+  background-color: #f8f8f8; 
   padding: 20px;
-  border-radius: 10px; /* 둥근 모서리 추가 */
+  border-radius: 10px; 
 }
-
 .main-item.middle {
   display: flex;
   align-items: center;
-  justify-content: space-around; /* 이미지와 텍스트 같이 */
-  background-color: #f8f8f8; /* 각 섹션의 배경색 */
+  justify-content: space-around; 
+  background-color: #f8f8f8; 
   padding: 20px;
-  border-radius: 10px; /* 둥근 모서리 추가 */
+  border-radius: 10px; 
 }
 
 .image-container {
@@ -85,7 +84,7 @@ h5 {
 
 .middle {
   flex: 1;
-  text-align: center; /* 이미지를 가운데 정렬 */
+  text-align: center; 
   margin-right: 360px 0;
 }
 
@@ -96,12 +95,12 @@ h5 {
 }
 
 .text-container {
-  flex: 1; /* 텍스트 영역을 이미지보다 크게 설정 */
-  text-align: left; /* 텍스트를 왼쪽 정렬 */
+  flex: 1; 
+  text-align: left; 
 }
 .text-container.middle {
-  flex: 1; /* 텍스트 영역을 이미지보다 크게 설정 */
-  text-align: right; /* 텍스트를 왼쪽 정렬 */
+  flex: 1; 
+  text-align: right; 
 }
 
 .text-container h2 {
@@ -124,11 +123,11 @@ p.focus.small {
   position: relative;
   background-color: #F0F8FF;
   text-align: center;
-  /* padding: 20px; */
+  
 }
 
 .bottom_banner img {
-  /* max-width: 100%; */
+  
   height: auto;
 }
 
@@ -144,25 +143,25 @@ p.focus.small {
 }
 
 .foot-left {
-  position: relative; /* 이렇게 밀어넣기 */
+  position: relative; 
   top: -50px; 
   right: -240px;
-  flex: 1; /*공간이 균등하게 배분된다는 듯*/
+  flex: 1; 
   text-align: left;
 }
 
 .foot-center {
-  position: relative; /* 이렇게 밀어넣기 */
+  position: relative;
   top: -50px; 
-  flex: 1; /*공간이 균등하게 배분된다는 듯*/
+  flex: 1; 
   text-align: center;
 }
 
 .foot-right {
-  position: relative; /* 이렇게 밀어넣기 */
+  position: relative; 
   top: -50px; 
   left: -240px;
-  flex: 1; /*공간이 균등하게 배분된다는 듯*/
+  flex: 1; 
   text-align: right;
 }
 
